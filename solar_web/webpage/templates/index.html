@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, intial-
+    scale=1.0">
+    <title>Solar Empowerment</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""index.html><img src="{{ url_for('static',filename='images/lpu-logo.png')}}" width="800" height="80"></a>
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="{{ url_for('static',filename='images/sequence 01.mp4')}}" type="video/mp4">
+            </video>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/WhySolar">WHY SOLAR</a></li>
+                    <li><a href="/SolarCalculator">SOLAR CALCULATOR</a></li>
+                    <li><a href="/Community">COMMUNITY</a></li>
+                    <li><a href="/About">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="test-box">
+            <h1>Empowering India's Energy Transition</h1>
+            <p>Welcome to a radiant journey into the world of solar power. 'Empowering India's Energy Transition' is your gateway to affordable and clean energy,
+                <br> where the sun's embrace illuminates the path to sustainable cities and communities.
+            </p>
+            <a href=""class="hero-btn">Show More</a>
+        </div>
+    </section>
+
+ <!------ Course ------>
+
+ <section class="course">
+    <h1>  Benifits of Solar Energy </h1>
+     <p> "Lighting the Future, Starting Now: Use the Sun, Enjoy the Benefits – Unveiling the Positive Power of Solar Energy."</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Reduce Electricity Bills</h3>
+            <p>Solar energy can significantly reduce electricity bills through several mechanisms, making it an attractive option for homeowners, businesses, and institutions.</p>
+        </div>
+    <div class="course-col">
+        <h3>Limitless and eternal solar energy</h3>
+        <p>The sun provides more than enough energy to meet the whole world’s energy needs.It produces electricity in an efficient and cost-effective way.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Environmental Friendly</h3>
+        <p>Solar energy is environmentally friendly, producing minimal greenhouse gases and pollutants compared to traditional energy sources.
+        </p>
+    </div>
+ </section>
+
+<!--- campus -->
+
+<section class="campus">
+<h1>Join the Revolution</h1>
+<p>Embrace solar energy for a brighter, cleaner, and sustainable India. Join the revolution today and light up the path to a greener tomorrow!"</p>
+
+<div class="row">
+    <div class="campus-col">
+        <img src="{{ url_for('static',filename='images/exa.jpg')}}">
+        <div class="layer">
+            <h3>Massive Solar Capacity Expansion</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="{{ url_for('static',filename='images/rural.jpeg')}}" width="300" height="580">
+        <div class="layer">
+            <h3>Rural Electrification and Inclusive Growth</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="{{ url_for('static',filename='images/image6.jpg')}}" width="300" height="580">
+        <div class="layer">
+            <h3>Energy Independence</h3>
+        </div>
+    </div>
+</div>
+</section>
+
+<!------- Facilities ---->
+ <section class="Facilities">
+   <h1>India's Largest Solar Farms
+   </h1>
+   <p>Below are the india's top 3 solar farms which are active now and supporting the Grid </p>
+    
+   <div class="row">
+    <div class="facilities-col">
+        <img src="{{ url_for('static',filename='images/top1.jpg')}}" width="500" height="205">
+        <h3>Bhadla Solar Park,Rajasthan</h3>
+        <p>commisioned on : 20 March 2020; 3 years ago
+            <br>Area : 14,000 acres
+            <br>Budget : US$2.175 billion
+        </p>
+    </div>
+    <div class="facilities-col">
+        <img src="{{ url_for('static',filename='images/top2.jpg')}}" width="500" height="200">
+        <h3>Pavagada Solar Park,Karnataka</h3>
+    </div>
+    <div class="facilities-col">
+        <img src="{{ url_for('static',filename='images/top3.jpg')}}" width="500" height="200">
+        <h3>Kurnool Ultra Mega Solar Park,Andhra Pradesh</h3>
+        </div>
+   </div>
+ </section>
+  <!-----testimonials-->
+   
+  <section class="testimonials">
+    <h1>Leaders about Solar Energy</h1>
+    <p>India hosts International Solar Alliance Assembly in 2023.
+        Ministers from 20, delegates from 166 countries participated.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="{{ url_for('static',filename='images/modi2.jpg')}}">
+            <div>
+                <p>Solar energy is going to be a major source of energy needs not only today but in the 21st
+                    century, because solar energy is Sure, Pure and Secure.”</p>
+                <h3>-Narendra Modi</h3>
+                <P>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ(Honarble Prime Minister)</P>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="{{ url_for('static',filename='images/minister.jpg')}}">
+            <div>
+                <p>Renewable energy sources have the potential to supply 65% of the world's total electricity by 2030 and decarbonize 90% of the power sector by 2050.</p>
+                <h3>-Raj Kumar Singh</h3>
+                <p>(Minister of Power and New and Renewable Energy)</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<!-----Call to action-->
+
+<section class="cta">
+    <h1>Illuminate your future by joining solar empowerment - harnessing the power of the sun for a sustainable and radiant tomorrow.</h1>
+    <a href="/WhySolar" class="hero-btn">Why Solar</a>
+</section>
+<!-----Footer----->
+
+<section class="footer">
+    <h4>ABOUT Us</h4>
+    <p>This is a project given By Environmental Chemistry in lpu <br>
+    This project also consists a solar calculator</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>LPU</p>
+</section>
+
+
+    <!--------JavaScript for Toggle Menu------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

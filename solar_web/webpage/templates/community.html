@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, intial-
+    scale=1.0">
+    <title>Solar Empowerment</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header4">
+        <nav>
+            <a href=""index.html><img src="{{ url_for('static',filename='images/lpu-logo.png')}}" width="500" height="80"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/WhySolar">WHY SOLAR</a></li>
+                    <li><a href="/SolarCalculator">SOLAR CALCULATOR</a></li>
+                    <li><a href="/Community">COMMUNITY</a></li>
+                    <li><a href="/About">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Community</h1>
+    </section>
+<!------- community ------->
+
+<section class="course">
+    <h1> Connect with Us </h1>
+     <p>Their is A huge community which is willing to help you out incase of any problem</p>
+    <div class="row">
+      <a class="course-col" href="https://t.me/+RgPOQmau-oE3ZDVl">  
+        <img src="{{ url_for('static',filename='images/telegram-logo-8.png')}}" width="100" height="100">
+            <h3>Telegram Channel</h3>
+            <p>Always Ready to resolve your doubts.</p>
+    
+        </a>
+        <a class="course-col" href="https://discord.gg/594rdbxV">  
+            <img src="{{ url_for('static',filename='images/OIP (1).jpg')}}" width="100" height="100">
+                <h3>Discord Server</h3>
+                <p>Always Ready to resolve your doubts.</p>
+        
+            </a>
+            <a class="course-col" href="https://chat.whatsapp.com/KipbPa4awK93aT2qffBlyR0">  
+                <img src="{{ url_for('static',filename='images/4-2-whatsapp-transparent.png')}}" width="100" height="100">
+                    <h3>Whatsapp Group</h3>
+                    <p>Always Ready to resolve your doubts.</p>
+            
+                </a>
+    </div>
+ </section>
+<!-----Footer----->
+
+<section class="footer">
+    <h4>ABOUT Us</h4>
+    <p>This is a project given By Environmental Chemistry in lpu <br>
+    This project also consists a solar calculator</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>LPU</p>
+</section>

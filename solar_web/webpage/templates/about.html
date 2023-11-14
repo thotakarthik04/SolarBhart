@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, intial-
+    scale=1.0">
+    <title>Solar Empowerment</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header5">
+        <nav>
+            <a href=""index.html><img src="{{ url_for('static',filename='images/lpu-logo.png')}}" width="500" height="80"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/WhySolar">WHY SOLAR</a></li>
+                    <li><a href="/SolarCalculator">SOLAR CALCULATOR</a></li>
+                    <li><a href="/Community">COMMUNITY</a></li>
+                    <li><a href="/About">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="course">
+        <h1>Meet Our Team</h1>
+         <p>Together, our diverse talents converge, weaving a tapestry of innovation and excellence.</p>
+        <div class="row">
+          <a class="course-col" href="https://www.linkedin.com/in/thotakarthikvardhan04/">  
+            <img src="{{ url_for('static',filename='images/21-12-2022 (2).JPG')}}" width="180" height="200">
+                <h3>Thota Karthik Vardhan</h3>
+                <p>Karthik,our meticulous Front End Developer, orchestrates seamless collaboration, ensuring every detail aligns for success.</p>
+        
+            </a>
+            <a class="course-col" href="https://www.linkedin.com/in/akmalmohammedkp0/">  
+                <img src="{{ url_for('static',filename='images/akmal.jpg')}}" width="200" height="200">
+                    <h3>Akmal Mohammed KP</h3>
+                    <p>Akmal, our Backend Developer, transforms ideas into compelling designs that captivate and elevate our projects.</p>
+            
+                </a>
+                <a class="course-col" href="https://www.linkedin.com/in/mdimtiyazalam07/">  
+                    <img src="{{ url_for('static',filename='images/3.jpg')}}" width="200" height="200">
+                        <h3>Md Imtiyaz Alam</h3>
+                        <p>Imtiyaz, our Front End Developer and Reasercher, navigates the digital realm with finesse, turning complex challenges into elegant solutions.</p>
+                
+                    </a>
+        </div>
+     </section>
+     <!-----Footer----->
+
+<section class="footer">
+    <h4>ABOUT Us</h4>
+    <p>This is a project given By Environmental Chemistry in lpu <br>
+    This project also consists a solar calculator</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>LPU</p>
+</section>

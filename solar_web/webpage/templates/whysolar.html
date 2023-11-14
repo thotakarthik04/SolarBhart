@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, intial-
+    scale=1.0">
+    <title>Solar Empowerment</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href=""index.html><img src="{{ url_for('static',filename='images/lpu-logo.png')}}" width="800" height="80"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/WhySolar">WHY SOLAR</a></li>
+                    <li><a href="/SolarCalculator">SOLAR CALCULATOR</a></li>
+                    <li><a href="/Community">COMMUNITY</a></li>
+                    <li><a href="/About">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Why Solar Energy..?</h1>
+    </section>
+<!------- about us content ------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+          <h1>Wallet friendly one time investment for 25 Years</h1> 
+          <p>All these advantages come without leaving a hole in your pocket. Installation of the solar power system is a one-time investment.The investment reaps huge dividends in form of lower electricity bills for several years.</p>
+
+        </div>
+        <div class="about-col">
+            <img src="{{ url_for('static',filename='images/wallet.png')}}">
+        </div>
+    </div>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+          <h1>Reduce your carbon footprint</h1> 
+          <p>Sustainable carbon-free energy solutions such as solar are crucial in achieving our climate goals and the sustainable development agenda.</p>
+          <a href="/SolarCalculator" class="hero-btn red-btn">EXPLORE NOW</a>
+        <div class="about-col">
+            <img src="{{ url_for('static',filename='images/co2.png')}}"width="150" height="300">
+        </div>
+    </div>
+</section>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col4">
+          <h1>Better Grid Security</h1> 
+          <p>Increasing usage of solar energy would lighten the load on the power grid and therefore ensure better grid security. This implies fewer power cuts and more protection from disasters.</p>
+          <a href="/SolarCalculator" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="{{ url_for('static',filename='images/Better-Grid-Security1.png')}}"  width="150" height="300">
+        </div>
+    </div>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col5">
+          <h1>Limitless and eternal solar energy</h1> 
+          <p>The sun provides more than enough energy to meet the whole world’s energy needs. The photovoltaic process that transforms the eternal sunlight into electricity doesn’t require any fuel and has no variable costs. It produces electricity in an efficient and cost-effective way.</p>
+          <a href="/SolarCalculator" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="{{ url_for('static',filename='images/Limitless-and-eternal-solar-energy1.png')}}"  width="150" height="300">
+        </div>
+    </div>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col6">
+          <h1>Save on electricity bills</h1> 
+          <p>AInstalling solar panels significantly reduces monthly electricity bills and dependence on the power grid. According to long-term forecast solar remains a cost-effective solution and long-term investment in the future.</p>
+          <a href="/SolarCalculator" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="{{ url_for('static',filename='images/Save-on-electricity-bills1.png')}}"  width="150" height="300">
+        </div>
+    </div>
+</section>
+
+<!------footer------->
+
+
+<section class="footer">
+    <h4>ABOUT Us</h4>
+    <p>This is a project given By Environmental Chemistry in lpu <br>
+        This project also consists a solar calculato</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>LPU<i class="fa fa-heart-o"></i></p>
+</section>
+
+</body>
+</html>
